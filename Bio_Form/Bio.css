@@ -6,7 +6,7 @@
 }
 
 body {
-    background: grey;
+    background: lightpink;
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -32,7 +32,7 @@ body {
     border: 2px solid lightcoral;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: darkkhaki;
+    background-color: darkgray;
     padding-bottom: 25px;
     border-radius: 15px;
 }
@@ -64,10 +64,6 @@ textarea {
     width: 100%;
 }
 
-/* br {
-    display: none;
-} */
-
 div, pre {
     margin-bottom: 15px;
 }
@@ -88,6 +84,7 @@ input:hover{
     background-color: lightblue;
 
 }
+
 
 
 
