@@ -2,116 +2,292 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bio Data Form</title>
     <link rel="stylesheet" href="../form/form.css">
-    <script src="../form/form.js" defer></script>
+    <script src="../form/form.js"></script>
 </head>
 <body>
-
-<div class="container">
-    <h1>PeoplePro SAMMS Pvt Ltd</h1>
-    <h2>Bio-Data Form</h2>
-
-    <form id="bioForm">
-
-        <div class="row">
-            <label>Name of Candidate:</label>
-            <input type="text" required>
-            <label>Mobile:</label>
-            <input type="text">
+    <div id="container">
+        <div id="logocontainer">
+            <img src="../form/assests/hmslogo.png" alt="logo" class="logo">
         </div>
-
-        <div class="row">
-            <label>Father/Husband Name:</label>
-            <input type="text">
-            <label>Marital Status:</label>
-            <select>
-                <option>Married</option>
-                <option>Unmarried</option>
-            </select>
+        <h1 class="heading">Bio Data Form</h1>
+        <div id="start">
+            <pre>
+            <h3>
+            To,
+               The Administrative officer,
+               M/s. PeoplePro SAMMs Pvt Ltd,
+               Madinaguda, Hyderabad.
+            </h3>
+            </pre>
         </div>
-
-        <div class="row">
-            <label>Date of Birth:</label>
-            <input type="date">
-            <label>Mobile:</label>
-            <input type="text">
+        <div id="idno">
+        <label for="idno">ID.NO: </label>
+        <input type="number"><br>
+        <label for="appli">Application No:</label>
+        <input type="number">
         </div>
-
-        <div class="row">
-            <label>Permanent Address:</label>
-            <textarea></textarea>
+        <div id="sub">
+            <pre>
+                <h4>Sub: Application of the Post:</h4>
+            </pre>
+            <pre>----------------------------------------------------</pre>
+            (Field officer/ Asst. Security Officier/ Security Supervisior / Head Guard / Security Guard /Lady Guard).
+            </pre>
+        <pre><h3>Sir.</h3>
+            I Submit Under My Detailed Biographical Particulars for Favor of your Kind Perusal and Consideration.
+        </pre>
         </div>
+        <table>
+            <tr>
+                <th rowspan="2">1. Name of the Candidate:</th>
+                <th>Mobile:</th>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" class="m-box">
+                    <input type="text" class="m-box">
+                    <input type="text" class="m-box">
+                    <input type="text" class="m-box">
+                    <input type="text" class="m-box">
+                    <input type="text" class="m-box">
+                    <input type="text" class="m-box">
+                    <input type="text" class="m-box">
+                    <input type="text" class="m-box">
+                    <input type="text" class="m-box">
+                </td>
+            </tr>
+        </table>
+        <table>
+                <tr>
+                    <th>2. Father/Husband/Contact:</th>
+                    <th colspan="2"></th>
+                </tr>
+        </table>
+        </table>
+        <table>
+                <tr>
+                    <th>3. Date of Birth:</th>
+                    <td>
+                        <input type="text" class="dob-box"> /
+                        <input type="text" class="dob-box"> /
+                        <input type="text" class="year-box">
+                    </td>
+                </tr>
+                <tr>
+                    <th>Mobile:</th>
+                    <td>
+                        <input type="text" class="m-box">
+                        <input type="text" class="m-box">
+                        <input type="text" class="m-box">
+                        <input type="text" class="m-box">
+                        <input type="text" class="m-box">
+                        <input type="text" class="m-box">
+                        <input type="text" class="m-box">
+                        <input type="text" class="m-box">
+                        <input type="text" class="m-box">
+                        <input type="text" class="m-box">
+                    </td>
+                </tr>
+        </table>
+        <table>
+                <tr>
+                    <th rowspan="2">4. Permanent Address:</th>
+                    <th>4. Address:</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>local Address:</th>
+                    <td></td>
+                </tr>
+                <table>
+                <tr>
+                    <th>5. Religion:</th>
+                    <th>5b. Nationality:</th>
+                </tr>
+                </table>
+        </table>
+        <table>
+            <th>6. Language Known: 
+                <pre><input type="checkbox">Hindi</pre>
+                <pre><input type="checkbox">English</pre>
+                <pre><input type="checkbox">Telugu </pre>
+                <pre><input type="checkbox">Other</pre>
+            </th>
+        </table>
+        <table>
+            <tr>
+                <th rowspan="6">7. Educational Qualification:</th>
+            </tr>
+            <tr>
+                <th>Below 10th class:</th>
+            </tr>
+            <tr>
+                <th>10th class:</th>
+            </tr>
+            <tr>
+                <th>12th class:</th>
+                <th>Group:</th>
+            </tr>
+            <tr>
+                <th>Degree:</th>
+                <th>Group</th>
+            </tr>
+            <tr>
+                <th>Any Others:</th>
+                <th>Group:</th>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th rowspan="4">8a. Ex-service:</th>
+                <th rowspan="2">Yes / No:</th>
+                <th rowspan="2">8b. civilian:</th>
+                <th>Other</th>
+            </tr>
+            <tr>
+                <td></td>
+                <!-- <td></td> -->
+                <!-- <td></td> -->
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th rowspan="4">9. Previous Experience:</th>
+                <th>Name of the Company</th>
+                <th>Designation</th>
+                <th>Year</th>
+                <th>To</th>
+                <th>Year</th>
+                <th>Yrs</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>10. Reference Check of Last Employer:</th>
+                <th>Designation:</th>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>11. Important Family Members</th>
+                <th>Name of the Person</th>
+                <th>Designation</th>
+                <th>Contact Number</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>12a. Blood Group:</th>
+                <th>12b. Training Fee: <input type="text"></th>
+            </tr>
+            
+        </table>
+        <table>
+            <tr>
+                <th rowspan="4">13. Bank Details</th>
+                <th>Bank Name:</th>
+                <th></th>
+            </tr>
+            <tr>
+                <th>Branch:</th>
+                <th></th>
+            </tr>
+            <tr>
+                <th>Account No.:</th>
+                <th></th>
+            </tr>
+            <tr>
+                <th>IFSC Code.:</th>
+                <th></th>
+            </tr>
+            <tr>
+                <th colspan="2">14. Aadhar Number: </th>
+                <td>
+                    <input type="number">
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th colspan="1">15. Previous UAN No.:</th>
+                <th>Mobile: </th>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" class="m-box">
+                    <input type="text" class="m-box">
+                    <input type="text" class="m-box">
+                    <input type="text" class="m-box">
+                    <input type="text" class="m-box">
+                    <input type="text" class="m-box">
+                    <input type="text" class="m-box">
+                    <input type="text" class="m-box">
+                    <input type="text" class="m-box">
+                    <input type="text" class="m-box">
+                </td>
+                <td>
+                    <input type="text" class="m-box">
+                    <input type="text" class="m-box">
+                    <input type="text" class="m-box">
+                    <input type="text" class="m-box">
+                    <input type="text" class="m-box">
+                    <input type="text" class="m-box">
+                    <input type="text" class="m-box">
+                    <input type="text" class="m-box">
+                    <input type="text" class="m-box">
+                    <input type="text" class="m-box">
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th colspan="1">16. Previous ESI.no:</th>
+                <th>Joining Date:</th>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" class="m-box">
+                    <input type="text" class="m-box">
+                    <input type="text" class="m-box">
+                    <input type="text" class="m-box">
+                    <input type="text" class="m-box">
+                    <input type="text" class="m-box">
+                    <input type="text" class="m-box">
+                    <input type="text" class="m-box">
+                </td>
+                <td>
+                    <input type="text" class="dob-box"> /
+                    <input type="text" class="dob-box"> /
+                    <input type="text" class="year-box">
+                </td>
+            </tr>
+        </table>
 
-        <div class="row">
-            <label>Local Address:</label>
-            <textarea></textarea>
-        </div>
+        <pre>
+        
 
-        <div class="row">
-            <label>Religion:</label>
-            <input type="text">
-            <label>Nationality:</label>
-            <input type="text">
-        </div>
 
-        <div class="row">
-            <label>Languages Known:</label>
-            <input type="text" placeholder="Hindi, English, etc">
-        </div>
-
-        <div class="row">
-            <label>Educational Qualification:</label>
-            <select>
-                <option>Below 10th</option>
-                <option>10th</option>
-                <option>12th</option>
-                <option>Degree</option>
-            </select>
-        </div>
-
-        <div class="row">
-            <label>Ex-Service:</label>
-            <input type="radio" name="ex"> Yes
-            <input type="radio" name="ex"> No
-        </div>
-
-        <div class="row">
-            <label>Previous Experience:</label>
-            <textarea></textarea>
-        </div>
-
-        <div class="row">
-            <label>Blood Group:</label>
-            <input type="text">
-        </div>
-
-        <div class="row">
-            <label>Bank Name:</label>
-            <input type="text">
-            <label>Branch:</label>
-            <input type="text">
-        </div>
-
-        <div class="row">
-            <label>Aadhar Number:</label>
-            <input type="text">
-        </div>
-
-        <div class="row">
-            <label>Account Number:</label>
-            <input type="text">
-            <label>IFSC Code:</label>
-            <input type="text">
-        </div>
-
-        <div class="row">
-            <button type="submit">Submit</button>
-            <button type="reset">Reset</button>
-        </div>
-    </form>
-</div>
-
+           Signature of Authorised Person:                                                            Signature Of The Employee:
+            (After Verification of all Columns) 
+        
+        </pre>
+    </div>
+        
 </body>
 </html>
